@@ -1,24 +1,24 @@
-## THING RESTful API
+# THING RESTful API
 
-# Clone repository
+## Clone repository
 
 - Open terminal
-- run `git clone `
+  - run `git clone `
 
 
-# Install required dependencies
+## Install required dependencies
 
 - On the terminal run:
    - `npm i express cors morgan`
    - `npm i -D nodemon`
 
-# Star API
+## Star API
 
 - run `npm run dev`
 - On the web browser open http://localhost:4000/
 
 
-# Endpoints
+## Endpoints
 
 - GET /things
 - GET /things/:id
