@@ -3,22 +3,22 @@
 ## Clone repository
 
 - Open terminal
-  - create a folder
+  - create a new folder using `mkdir`
   - `cd` into folder
   - run `git clone git@github.com:smadeira22/RESTfulAPI.git`
-  - cd into RESTfulAPI folder
+  - `cd` into RESTfulAPI folder
   - run `code .`, this will open the applciation in VS code
 
 ## Install required dependencies
 
 - On the terminal run:
-   - `npm i express cors morgan`
-   - `npm i -D nodemon`
+   - `npm install`
 
 ## Start API
 
-- On the terminal:
-   - run `npm run dev`, app run on 4000
+- On the terminal run:
+   - `cd server`
+   - `npm run dev`, app runs on 4000
 - On the web browser open
    - http://localhost:4000/
 
