@@ -58,6 +58,17 @@ class Thing {
       throw new Error(error.message)
     }
   }
+
+  destroy(){
+    const thingData = thingsData.find(thing => thing.id === this.id)
+    
+    if(thingData){
+      const thingsIndex = thingsData.indexOf(thingData)
+      thingsData.splice(thingsIndex, 1)
+    } else {
+      throw new Error('Thing not found')
+    }
+  }
 }
 
 module.exports = Thing
