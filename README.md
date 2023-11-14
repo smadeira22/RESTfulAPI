@@ -24,8 +24,8 @@
 
 ## Endpoints
 
-- GET /things
-- GET /things/:id
-- POST /things
-- PATCH /things/:id
-- DELETE /things/:id
+- GET /phones
+- GET /phones/:id
+- POST /phones
+- PATCH /phones/:id
+- DELETE /phones/:id
