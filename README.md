@@ -1,4 +1,4 @@
-# THING RESTful API
+# THINGS RESTful API
 
 ## Clone repository
 
@@ -17,9 +17,9 @@
 
 ## Start API
 
-On the terminal:
+- On the terminal:
    - run `npm run dev`, app run on 4000
-On the web browser open
+- On the web browser open
    - http://localhost:4000/
 
 ## Endpoints
