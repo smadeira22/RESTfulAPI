@@ -7,20 +7,20 @@ module.exports = [
     },
     {
         id: 2,
-        name: "lip balm",
-        brand: "dr.organic",
-        color: "orange"
+        name: "Galaxy S22",
+        brand: "Samsung",
+        color: "purple"
     },
     {
         id: 3,
-        name: "wireless mouse",
-        brand: "TECKNET",
-        color: "black",
+        name: "mOTO e",
+        brand: "Motorola",
+        color: "white",
     },
     {
         id: 4,
-        name: "Natural Mineral Water",
-        brand: "CARRICK GLEN",
+        name: "Redmi 12",
+        brand: "Xiaomi",
         color: "blue",
     }
 ]
