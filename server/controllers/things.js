@@ -14,4 +14,14 @@ const show = (req, res) => {
       res.status(404).send({ error: err.message })
    }
 }
-module.exports = { index, show }
+
+const create = (req, res) => {
+   try {
+      const data = req.body
+      const newThing = Thing.create(data)
+      res.status(201).send({ data: newThing })
+   } catch(err) {
+      res.status(400).send({ error: err.message })
+   }
+}
+module.exports = { index, show, create }
