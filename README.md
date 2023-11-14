@@ -16,7 +16,7 @@
 
 ## Start API
 
-- On the terminal run:
+- On the terminal type:
    - `cd server`
    - `npm run dev`, app runs on 4000
 - On the web browser open
