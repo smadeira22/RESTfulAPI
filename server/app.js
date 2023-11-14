@@ -17,7 +17,12 @@ app.get('/', (req, res) => {
       message: "welcome",
       description: "THINGS API",
       endpoints: [
-        "GET    /               200"
+        "GET    /             200",
+        "GET    /things       200",
+        "GET    /things/:id   200",
+        "POST   /things       201",
+        "PATCH  /things/:id   200",
+        "DELETE /things/:id   204",
       ]
     })
   })

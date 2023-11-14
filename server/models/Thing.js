@@ -1,11 +1,11 @@
 const thingsData = require('../data')
 
 class Thing {
-    constructor(data){
-      this.id = data.id
-      this.name = data.name
-      this.brand = data.brand
-      this.color = data.color
+  constructor(data){
+    this.id = data.id
+    this.name = data.name
+    this.brand = data.brand
+    this.color = data.color
   }
 
   static getAll() {

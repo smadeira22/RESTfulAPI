@@ -1,9 +1,8 @@
-const { Z_ASCII } = require('zlib')
 const Thing = require('../models/Thing')
 
 const index = (req, res) => {
-    const things = Thing.getAll()
-    res.status(200).send({ data: things })
+   const things = Thing.getAll()
+   res.status(200).send({ data: things })
 }
 
 const show = (req, res) => {
