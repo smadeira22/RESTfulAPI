@@ -1,4 +1,4 @@
-# THINGS RESTful API
+# PHONES RESTful API
 
 ## Clone repository
 
