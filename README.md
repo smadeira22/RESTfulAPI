@@ -4,7 +4,7 @@
 
 - Open terminal
   - create a folder
-  - cd into folder
+  - `cd` into folder
   - run `git clone git@github.com:smadeira22/RESTfulAPI.git`
   - cd into RESTfulAPI folder
   - run `code .`, this will open the applciation in VS code

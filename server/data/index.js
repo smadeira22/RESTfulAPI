@@ -1,19 +1,20 @@
 module.exports = [
     {
-        id:1, 
+        id: 1, 
         name: "iPhone 14 Pro",
-        storage: "1000 GB"
+        brand: "Apple",
+        color: "white"
     },
     {
         id: 2,
         name: "lip balm",
-        brand: "dr.organic"
+        brand: "dr.organic",
+        color: "orange"
     },
     {
         id: 3,
-        name: "notebook",
-        color: "pink",
-        condition: "used"
+        name: "wireless mouse",
+        brand: "TECKNET",
+        color: "black",
     }
-
 ]
