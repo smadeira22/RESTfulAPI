@@ -1,3 +1,4 @@
+const { Z_ASCII } = require('zlib')
 const Thing = require('../models/Thing')
 
 const index = (req, res) => {
@@ -24,4 +25,18 @@ const create = (req, res) => {
       res.status(400).send({ error: err.message })
    }
 }
-module.exports = { index, show, create }
+
+const update = (req,res) => {
+   try {
+      const { id } = req.params
+      const thingToUpdate = Thing.findById(parseInt(id))
+
+      const updatedThing = thingToUpdate.update(req.body)
+      res.status(200).send({ data: updatedThing })
+   } catch (err) {
+      res.status(400).send({ error: err.message })
+   }
+}
+
+
+module.exports = { index, show, create, update }

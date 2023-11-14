@@ -6,5 +6,6 @@ const thingsController = require('../controllers/things')
 router.get('/', thingsController.index)
 router.get('/:id', thingsController.show)
 router.post('/', thingsController.create)
+router.patch('/:id', thingsController.update)
 
 module.exports = router
